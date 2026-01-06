@@ -1,0 +1,8 @@
+.group-row {
+  background-color: #f0f5ff !important;
+  font-weight: bold;
+}
+
+.group-row:hover {
+  background-color: #e6f0ff !important;
+}
