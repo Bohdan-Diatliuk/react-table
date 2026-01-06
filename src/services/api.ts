@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Product, Filters } from '../types/product';
 
-const BASE_URL = 'http://makeup-api.herokuapp.com/api/v1/products.json';
+const BASE_URL = 'https://makeup-api.herokuapp.com/api/v1/products.json';
 
 export const fetchProducts = async (filters: Filters = { brand: null, product_tags: [] }): Promise<Product[]> => {
   try {
