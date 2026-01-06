@@ -37,4 +37,4 @@ The application displays cosmetic products fetched from the Makeup API in a tabl
 
 ## Deployment
 
-Vercel - [Demo](https://vite-react-one-nu-22.vercel.app/)
+Vercel - [Demo](https://react-table-5by8.vercel.app/)
