@@ -109,7 +109,7 @@ const ProductTable: React.FC<ProductTableProps> = ({ data, loading, groupBy }) =
       }
       return null;
     },
-    rowExpandable: (record: TableProduct) => record.isGroup && (record.children?.length ?? 0) > 0,
+    rowExpandable: (record: TableProduct) => !!(record.isGroup && (record.children?.length ?? 0) > 0),
     defaultExpandAllRows: false
   };
 
